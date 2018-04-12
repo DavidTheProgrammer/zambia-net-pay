@@ -1,0 +1,27 @@
+{
+  "name": "davids-payroll",
+  "version": "1.0.0",
+  "description": "A tool to calculate net pay for fulltime Zambian empolyees",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-dev": "node-sass -w styles.scss -o css",
+    "sass": "node-sass styles.scss --output-style compressed -o css && npm run lint-css && npm run finalise-css",
+    "scripts": "uglifyjs custom.js -m -c -o scripts.min.js",
+    "finalise-css": "postcss css/styles.css -u autoprefixer --no-map -o styles.min.css",
+    "lint-css": "stylelint css/styles.css --fix > lint.txt",
+    "build": "npm run sass && npm run scripts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.3",
+    "node-sass": "^4.5.3",
+    "postcss-cli": "^4.1.0",
+    "stylelint": "^8.0.0",
+    "stylelint-csstree-validator": "^1.1.1",
+    "uglify-js": "^3.0.28"
+  },
+  "dependencies": {
+    "eslint": "^4.19.1"
+  }
+}
