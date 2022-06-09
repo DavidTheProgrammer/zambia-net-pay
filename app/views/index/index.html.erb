@@ -1,15 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<!--Import Google Icon Font-->
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Roboto:100,400" rel="stylesheet">
-	<link rel="stylesheet" href="./css/styles.css">
 
 	<title>David's Net Pay Calculator</title>
+	<style type=”text/css”>           h1{               color:blue;           }    </style>
 </head>
 <body>
 
@@ -88,6 +82,7 @@
 	<!-- Materialize CDN -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 	<!-- Our SCript -->
-	<script type="text/javascript" src="./custom.js"></script>
+	
+	<%= javascript_include_tag "custom.js",'custom.js' %>
 </body>
 </html>

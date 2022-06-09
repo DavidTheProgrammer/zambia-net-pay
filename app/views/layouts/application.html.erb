@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
-    <%= javascript_importmap_tags %>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Roboto:100,400" rel="stylesheet">
+    <%= stylesheet_link_tag "styles", "data-turbo-track": "reload" %>
+    <%= javascript_include_tag "custom.js", "data-turbolinks-track" => true %>
+    
   </head>
 
   <body>
