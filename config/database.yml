@@ -1,0 +1,30 @@
+default: &default
+   adapter: postgresql
+   encoding: unicode
+  
+development:
+   adapter: postgresql
+   encoding: unicode
+   database: zambia-net-pay_development
+   username: rubyuser
+   password: admin1234
+   host: localhost
+   port: 5433
+
+test:
+   adapter: postgresql
+   encoding: unicode
+   database: zambia-net-pay_test
+   username: rubyuser
+   password: admin1234
+   host: localhost
+   port: 5433
+ 
+production:
+   adapter: postgresql
+   encoding: unicode
+   database: zambia-net-pay_production
+   username: rubyuser
+   password: admin1234
+   host: localhost
+   port: 5433
