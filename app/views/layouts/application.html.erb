@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Zambia Net Pay Calculator</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Roboto:100,400" rel="stylesheet">
+    <%= stylesheet_link_tag "styles", "data-turbo-track": "reload" %>
+    <%= javascript_include_tag "custom.js", "data-turbolinks-track" => true %>
+    
+  </head>
+
+  <body>
+    <%= yield %>
+    <!-- Scripts -->
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- Materialize CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<!-- Our SCript -->
+
+<%= javascript_include_tag "custom.js",'custom.js' %>
+  </body>
+</html>
