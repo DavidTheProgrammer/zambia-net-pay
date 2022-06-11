@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ZambiaNetPay</title>
+  <title>Zambia Net Pay Calculator</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -14,5 +14,13 @@
 
   <body>
     <%= yield %>
+    <!-- Scripts -->
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- Materialize CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<!-- Our SCript -->
+
+<%= javascript_include_tag "custom.js",'custom.js' %>
   </body>
 </html>

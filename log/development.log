@@ -551,3 +551,12 @@ Processing by IndexController#index as HTML
 Completed 200 OK in 5ms (Views: 4.7ms | Allocations: 4954)
 
 
+Started GET "/" for ::1 at 2022-06-09 19:53:54 +0200
+Processing by IndexController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering index/index.html.erb within layouts/application
+  Rendered index/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 2601)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 4692)
+Completed 200 OK in 5ms (Views: 5.0ms | Allocations: 4945)
+
+
