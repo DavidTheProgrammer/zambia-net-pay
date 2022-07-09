@@ -1,0 +1,2 @@
+class UsersNetPay < ApplicationRecord
+end
