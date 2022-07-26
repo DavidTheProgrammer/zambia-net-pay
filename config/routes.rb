@@ -1,8 +1,6 @@
 Rails.application.routes.draw do
-  get 'users_net_pay/index'
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  root "net#index"
 
-  # Defines the root path route ("/")
-  # root "articles#index"
-  root 'index#index'
+  get "/net", to: "articles#index"
+  get "/net/:id", to: "net#show"
 end
