@@ -1,0 +1,2 @@
+class NapsaRateController < ApplicationController
+end

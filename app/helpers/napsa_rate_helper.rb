@@ -1,0 +1,2 @@
+module NapsaRateHelper
+end
