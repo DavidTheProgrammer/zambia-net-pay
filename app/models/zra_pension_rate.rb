@@ -1,0 +1,2 @@
+class ZraPensionRate < ApplicationRecord
+end
