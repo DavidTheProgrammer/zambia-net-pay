@@ -1,0 +1,11 @@
+<h1>Zambia Net Pay</h1>
+
+<ul>
+  <% @netpay.each do |article| %>
+    <li>
+      <a href="/netpays/<%= netpay.id %>">
+        <%= netpay.title %>
+      </a>
+    </li>
+  <% end %>
+</ul>

@@ -1,0 +1,3 @@
+class NapsaRate < ApplicationRecord
+    
+end

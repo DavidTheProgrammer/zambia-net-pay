@@ -1,0 +1,2 @@
+class NapsaCeiling < ApplicationRecord
+end

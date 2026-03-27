@@ -1,0 +1,2 @@
+class ZraPensionMax < ApplicationRecord
+end

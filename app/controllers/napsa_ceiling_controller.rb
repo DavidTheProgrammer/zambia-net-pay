@@ -1,0 +1,2 @@
+class NapsaCeilingController < ApplicationController
+end
